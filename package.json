@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nmirce/rasadnik/issues"
   },
-  "homepage": "https://github.com/nmirce/rasadnik#readme"
+  "homepage": "https://github.com/nmirce/rasadnik#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
