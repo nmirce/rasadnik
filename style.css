@@ -199,12 +199,13 @@ h1 {
 }
 
 #map {
-  width: 800px;
-  height: 600px;
-  border: 1px dotted gray;
+  width: 600px;
+  height: 500px;
+  border: 1px solid green;
 }
 
 #mapa {
   margin-top: 50px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
