@@ -1,15 +1,16 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Rasadnik Sofora - Kontakt</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<script src="script.js"></script>
+  <meta charset="utf-8">
+  <title>Rasadnik Sofora - Kontakt</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="script.js"></script>
 </head>
 
 <body>
   <header id="header">
-    <img class ="logo" src="img/logo.png" alt="logo"/>
+    <img class="logo" src="img/logo.png" alt="logo" />
     <ul class="ul-nav">
       <li class="li-nav"><a href="index.html">Početna</a></li>
       <li class="li-nav"><a href="ponuda.html">Ponuda</a></li>
@@ -18,11 +19,13 @@
     </ul>
     <a class="facebook" href="https://www.facebook.com/Rasadnik-Sofora-224565534683251/" target="_blank">
       <img class="facebook" src="img/facebook-icon.png" height="30" width="30" alt="facebook">
-    </a>  
+    </a>
   </header>
-<div class="container">
+  <div class="container">
     <aside class="aside">
-    <p><h3>Korisni linkovi:</h3></p>
+      <p>
+      <h3>Korisni linkovi:</h3>
+      </p>
       <ul>
         <li><a href="http://google.com" target="_blank">Google</a></li>
         <br>
@@ -36,57 +39,62 @@
     </aside>
     <main id="kontakt">
       <div id="tekst">
-          <h1>Kontakt:</h1>
-          <p>Banjalučka 2<br>
-             Ečka<br>
-             Mob. 065 3881579<br>
-             E-mail: <a href="mailto:mihaelgilezan@gmail.com">mihaelgilezan@gmail.com</a>
-          </p>
-          <hr>
+        <h1>Kontakt:</h1>
+        <p>Banjalučka 2<br>
+          Ečka<br>
+          Mob. 065 3881579<br>
+          E-mail: <a href="mailto:mihaelgilezan@gmail.com">mihaelgilezan@gmail.com</a>
+        </p>
+        <hr>
         <h2>Kontaktirajte nas putem sajta:</h2>
 
         <form id="form1" action="mailto:shone.htc@gmail.com" method="post" enctype="text/plain">
-            <label for="ime">Ime:</label>
-            <br>
-            <input type="text" id="ime" name="firstname" placeholder="Unesite vaše ime...">
-            <br>
-            <br>
-            <label for="prezime">Prezime:</label>
-            <br>
-            <input type="text" name="lname" id="prezime">
-            <br>
-            <br>
-            <label for="telefon">Kontakt telefon:</label>
-            <br>
-            <input type="text" name="number" id="telefon">
+          <label for="ime">Ime:</label>
+          <br>
+          <input type="text" id="ime" name="firstname" placeholder="Unesite vaše ime..." required>
+          <br>
+          <br>
+          <label for="prezime">Prezime:</label>
+          <br>
+          <input type="text" name="lname" id="prezime" placeholder="Unesite vaše prezime...">
+          <br>
+          <br>
+          <label for="telefon">Kontakt telefon:</label>
+          <br>
+          <input type="text" name="number" id="telefon" placeholder="Unesite broj telefona...">
           <h3>Upit je u vezi:</h3>
-            <input type="radio" name="radio" id="radio" value="radio">
-            <label for="radio">Upit cene </label>
-            <br>
-            <input type="radio" name="radio" id="radio2" value="radio2">
-            <label for="radio2">Savet </label>
-            <br>
-            <input type="radio" name="radio" id="radio3" value="radio3">
-            <label for="radio3">Drugo </label>
-            <h3>Vaša poruka:</h3>
-            <label for="textarea"></label>
-            <textarea name="textarea" id="textarea" placeholder="Unesite vašu poruku..."></textarea>
-            <br>
-            <br>
-            <input type="submit" name="submit" id="submit" value="Pošalji">
-            <input type="reset" value="Reset">
+          <input type="radio" name="radio" id="radio" value="radio">
+          <label for="radio">Upit cene </label>
+          <br>
+          <input type="radio" name="radio" id="radio2" value="radio2">
+          <label for="radio2">Savet </label>
+          <br>
+          <input type="radio" name="radio" id="radio3" value="radio3">
+          <label for="radio3">Drugo </label>
+          <h3>Vaša poruka:</h3>
+          <label for="textarea"></label>
+          <textarea name="textarea" id="textarea" placeholder="Unesite vašu poruku..."></textarea>
+          <br>
+          <br>
+          <input type="submit" name="submit" id="submit" value="Pošalji">
+          <input type="reset" value="Reset">
         </form>
       </div>
       <div id="mapa">
         <h3>Naša lokacija:</h3>
         <div id="map"></div>
       </div>
-  </main>      
-</div>
-<footer id="footer"><p>&copy; Nenadu <script type="text/javascript">
-  document.write(new Date().getFullYear());
-</script></p>
-</footer>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlTR4IU43WsuGfBafEDQkiTlIHCJbdkBE&callback=initMap"></script>
+    </main>
+  </div>
+  <footer id="footer">
+    <p>&copy; Nenadu
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+    </p>
+  </footer>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlTR4IU43WsuGfBafEDQkiTlIHCJbdkBE&callback=initMap"></script>
 </body>
+
 </html>
